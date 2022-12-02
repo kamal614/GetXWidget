@@ -16,7 +16,7 @@ class Ui extends StatelessWidget {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          GetX(
+          GetX<KamalController>(
               // init: KamalController(),
               builder: (controller) {
             //when init is in the Getx
